@@ -238,11 +238,11 @@ This is **TRIAL-LEVEL** correlation (κ per trial vs RT per trial), NOT block-le
 **`comprehensive_unrejectability_results.json`**
 
 ### Script That Produced It:
-**`complete_unrejectability_analysis_GPU.py`**
+**`comprehensive_clinical_analysis.py`**
 
 ### Verification Command:
 ```bash
-python complete_unrejectability_analysis_GPU.py
+python comprehensive_clinical_analysis.py
 # Produces: comprehensive_unrejectability_results.json
 ```
 
@@ -331,7 +331,7 @@ python mathematical_derivation/nencki_rt_correlation_FIXED.py
 python NEUROPIXELS_IMPROVED.py
 
 # 7. Clinical schizophrenia (comprehensive)
-python complete_unrejectability_analysis_GPU.py
+python comprehensive_clinical_analysis.py
 
 # 8. Calibration plot (FIXED with MSIT = 0.086)
 python create_calibration_plot.py

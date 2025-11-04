@@ -48,7 +48,7 @@ All scripts are documented with their corresponding statistics in `STATISTIC_TO_
    - Produces: `clinical_aszed_results.json`
    - Statistics: n=27 patients, n=56 controls
 
-10. **complete_unrejectability_analysis_GPU.py** - Comprehensive clinical analysis
+10. **comprehensive_clinical_analysis.py** - Comprehensive clinical analysis
     - Produces: `comprehensive_unrejectability_results.json`
     - Statistics: t = -3.19, p = 0.002, BF₁₀ = 494
 
@@ -83,7 +83,7 @@ python mathematical_derivation/nencki_rt_correlation_FIXED.py
 python NEUROPIXELS_IMPROVED.py
 
 # 7. Clinical schizophrenia
-python complete_unrejectability_analysis_GPU.py
+python comprehensive_clinical_analysis.py
 
 # 8. Calibration plot
 python create_calibration_plot.py
